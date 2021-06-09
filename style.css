@@ -78,17 +78,17 @@ body {
 }
 
 .num-parent .num-child h1 {
-  margin: 6vh 0 0 0;
-  font-size: 3vw;
+  margin: 3vh 0 0 0;
+  font-size: 5vw;
 }
 
 .num-parent .num-child p {
   margin: 3vh 0 0 0;
-  font-size: 7vw;
+  font-size: 8vw;
 }
 
 .num-parent .num-child p span {
-  font-size: 8vw;
+  font-size: 10vw;
   font-family: 'Galada', cursive;
   text-shadow: 0.5vw 0.2vw 0px red;
 }
