@@ -64,7 +64,8 @@ body {
   width: 100%;
   height: 100%;
   color: #fff;
-  background-color: #00c200;
+  background: url(assets/pexels-luqmaan-tootla-2929189.jpg);
+  background-size: 100%;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -87,8 +88,8 @@ body {
 }
 
 .num-parent .num-child p span {
-  font-size: 10vw;
-  font-family: 'Galada', cursive;
+  font-size: 13vw;
+  font-family: 'Baloo Da 2', cursive;
   text-shadow: 0.5vw 0.2vw 0px red;
 }
 
@@ -100,6 +101,59 @@ h1::-moz-selection, p::-moz-selection, span::-moz-selection {
 h1::selection, p::selection, span::selection {
   background-color: #fffb2b;
   color: #333;
+}
+
+.main-contents {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-contents .main-child-1 {
+  width: 20vw;
+  height: 30vh;
+  background-color: red;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.main-contents .main-child-2 {
+  width: 20vw;
+  height: 30vh;
+  background-color: green;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.main-contents .main-child-3 {
+  width: 20vw;
+  height: 30vh;
+  background-color: gray;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+.main-contents .main-child-4 {
+  width: 20vw;
+  height: 30vh;
+  background-color: greenyellow;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 700px) {
+  .main-child-4 {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
 }
 
 footer {
