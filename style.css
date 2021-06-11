@@ -94,13 +94,11 @@ body {
 }
 
 h1::-moz-selection, p::-moz-selection, span::-moz-selection {
-  background-color: #fffb2b;
-  color: #333;
+  background-color: #00c200;
 }
 
 h1::selection, p::selection, span::selection {
-  background-color: #fffb2b;
-  color: #333;
+  background-color: #00c200;
 }
 
 .main-contents {
@@ -167,8 +165,8 @@ footer {
 }
 
 footer p {
-  font-size: x-large;
-  padding: 10px 0px 10px 0px;
+  font-size: 2em;
+  padding: 10px 10px 10px 10px;
   margin: 0px;
 }
 /*# sourceMappingURL=style.css.map */
