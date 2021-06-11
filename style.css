@@ -127,35 +127,37 @@ h1::selection, p::selection, span::selection {
 
 .main-contents .main-child-1 .card {
   width: 20vw;
-  height: 30vw;
-  margin: 2.5vw;
+  height: 34vw;
+  margin: 2.5vw 2.5vw;
+  padding: 0;
   border: 1px solid #333;
   border-radius: 10px;
 }
 
+.main-contents .main-child-1 .card .card-body {
+  height: 14vw;
+}
+
 .main-contents .main-child-1 .card .card-body .card-text {
-  font-family: 'Galada';
   margin: 0;
+  font-size: 2.3vw;
+  font-family: 'Galada';
   text-align: center;
 }
 
-.main-contents .main-child-1 .card .card-body .card-text .planter-name {
-  font-size: 2.3vw;
-  color: #000;
-}
-
-.main-contents .main-child-1 .card .card-body .card-text .planted-tree {
-  font-size: 1.8vw;
+.main-contents .main-child-1 .card .card-body .card-text i {
   color: #00c200;
 }
 
-.main-contents .main-child-1 .card .card-body .card-text .planted-date {
-  font-size: 1vw;
+.main-contents .main-child-1 .card .card-body .card-text span {
+  margin: 0;
+  font-size: 1.2vw;
   color: #333;
   text-align: right;
 }
 
 .main-contents .main-child-1 .card #tree-img {
+  margin: 0;
   width: 20vw;
   height: 20vw;
   border-radius: 10px;
@@ -176,5 +178,11 @@ footer p {
   font-size: 2vw;
   padding: 10px 10px 10px 10px;
   margin: 0px;
+}
+
+@media (max-width: 700px) {
+  footer p {
+    font-size: 4vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */

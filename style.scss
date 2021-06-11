@@ -10,6 +10,7 @@ body{
  body::-webkit-scrollbar{
    background-color: #333;
    width: 10px;
+
    &-thumb{
     background-color: rgb(255, 43, 255);
   }
@@ -111,14 +112,11 @@ body{
 
 
 
-
 h1, p, span{
   &::selection{
   background-color: rgb(0, 194, 0);
   }
 }
-
-
 
 
 //number..........end..............
@@ -135,37 +133,37 @@ h1, p, span{
 
     .card{
       width: 20vw;
-      height: 30vw;
-      margin: 2.5vw;
+      height: 34vw;
+      margin: 2.5vw 2.5vw;
+      padding: 0;
       border: 1px solid #333;
       border-radius: 10px;
       .card-body{
+        height: 14vw;
 
         .card-text{
-          font-family: 'Galada';
           margin: 0;
+          font-size: 2.3vw;
+          font-family: 'Galada';
           text-align: center;
 
-          .planter-name{
-            font-size: 2.3vw;
-            color: #000;
-          }
-
-          .planted-tree{
-            font-size: 1.8vw;
+          i{
             color: rgb(0, 194, 0);
           }
 
-          .planted-date{
-            font-size: 1vw;
+          span{
+            margin: 0;
+            font-size: 1.2vw;
             color: #333;
             text-align: right;
+            
           }
         }
       }
 
 
       #tree-img{
+        margin: 0;
         width: 20vw;
         height: 20vw;
         border-radius: 10px;
@@ -214,6 +212,13 @@ footer{
 }}
 
 
+@media (max-width: 700px){
+  footer{
+    p{
+      font-size: 4vw;
+    }
+  }
+}
 
 
 
