@@ -155,7 +155,6 @@ h1::selection, p::selection, span::selection {
 }
 
 footer {
-  display: block;
   width: 100%;
   font-family: 'galada';
   text-align: center;
